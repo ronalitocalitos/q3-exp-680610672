@@ -24,13 +24,14 @@ export function AddItemDialog() {
     e.preventDefault();
     if (!title || !amount) return;
 
-    // addExpense(title, parseFloat(amount), category);
+    addExpense(title, parseFloat(amount), category);
     setTitle("");
     setAmount("");
     setOpen(false);
   };
 
   return (
+    
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger
         render={<Button className="bg-indigo-500 hover:bg-indigo-600" />}
