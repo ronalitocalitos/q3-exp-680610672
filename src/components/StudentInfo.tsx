@@ -26,10 +26,27 @@ export function StudentInfo() {
               student information
             </DrawerDescription>
           </DrawerHeader>
+      
           <div className="text-center">
-            <p className="text-lg font-semibold">Nutthanon Yasawute</p>
-            <p className="text-sm text-muted-foreground">Student ID: 680610672</p>
-            <p className="text-sm text-muted-foreground">CPE207 - Web Application Development</p>
+            
+            <h4 className="text-lg font-semibold">Nutthanon Yasawute</h4>
+            <p className="text-sm text-muted-foreground">Student of Computer Engineering</p>
+            <p className="text-sm text-muted-foreground">
+              <Button className="bg-black hover:bg-blue-600 text-white px-2 py-1 rounded-md" >
+                Hobbies
+              </Button>
+              Student ID: 680610672
+            </p>
+            <p className="text-sm text-muted-foreground">
+              <Button className="bg-black hover:bg-blue-600 text-white px-2 py-1 rounded-md" >
+                Email
+              </Button>
+               nutthanon_y@cmu.ac.th</p>
+            <p className="text-sm text-muted-foreground">
+              <Button className="bg-black hover:bg-blue-600 text-white px-2 py-1 rounded-md" >
+                Instagram
+              </Button>
+              yeen.ntn</p>
           </div>
           <DrawerFooter>
             <DrawerClose>
